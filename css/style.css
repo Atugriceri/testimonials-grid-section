@@ -9,128 +9,102 @@ body {
     margin-top: 120px;
 }
 
-h2, h3 {
-    font-size: 15px;
+/* text settings start */
+
+.name{
     color: hsl(0, 0%, 100%);
-
 }
-
-.card-title {
-    font-weight: 600;
-    margin:0;
-    padding:0;
-    margin-left: 45px;
-}
-
-h3 {
-    font-weight: 500;
-    margin-left: 45px;
+.status{
     color: hsl(0, 0%, 81%);
 }
 
-.card-img-top {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    float: left;
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
 }
 
-.daniel {
+.p1 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.p2 {
+    color: hsl(0, 0%, 81%);
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.white-box .p1 { 
+    color: hsl(219, 29%, 14%);
+}
+
+.white-box .name {
+    color: hsl(219, 29%, 14%);
+}
+
+/* text settings end */
+
+.card-area{
+    padding: 15px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+.name-area {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.name-area img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    border: 2px solid hsl(0, 0%, 81%); /*resimlerde danielin resmi de değişecek... çerçeve olarak.. */
+}
+
+.name-area > .purple-border {
+    border: 2px solid hsl(263, 55%, 52%);
+}
+
+/* box color setting start */
+
+.purple-box {
     background-color: hsl(263, 55%, 52%);
     background-image: url(../images/bg-pattern-quotation.svg);
     background-position-x: 80%;
     background-repeat: no-repeat;
 }
 
-.jonathan {
+.dark-grayish-box {
     background-color: hsl(217, 19%, 35%);
 }
 
-.patrick {
-    background-color: hsl(219, 29%, 14%);
+.white-box {
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 41px;
 }
 
 .kira {
-    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 28px;
 }
 
-.jeanette > .card-header {
-    background-color: hsl(0, 0%, 100%);
+.dark-blackish-box {
+    background-color: hsl(219, 29%, 14%);
 }
 
-.card-header {
-    border-width: 0ch;
-    padding-bottom:0;
-}
+/* box color setting ending */
 
-.bold-text {
-    font-size: 20px;
-    font-weight: 600;
-}
 
-.card-body {
-    padding-top: 10px;
-}
-
-.text-1 {
-    color:hsl(0, 0%, 81%);
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.text-2 {
-    color:hsl(0, 0%, 81%);
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.text-3 {
-    color: hsl(217, 19%, 35%);
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.text-4 {
-    color: hsl(0, 0%, 81%);
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.jeanette-title {
-    color: hsl(219, 29%, 14%);
-}
-
-.jeanette > .card-header > h3 {
-    color: hsl(217, 19%, 35%);
-}
-
-.darkgray-text {
-    color: hsl(219, 29%, 14%);
-}
-
-.kira > h2 {
-    color: hsl(219, 29%, 14%);
-}
-
-.kira > h3 {
-    color: hsl(217, 19%, 35%);
-}
-
-.kira:last-child {
-    padding-bottom: 49%;
-}
-
-.card {
-    margin-bottom: 20px;
-}
 
 @media screen and (max-width: 575px) {
-    .kira:last-child {
-        padding-bottom: 0;
-    }
-    .card {
-        margin-bottom: 20px;
-    }
     .main-container {
         margin-top: 50px;
     }
